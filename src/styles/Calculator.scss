@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inputs {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs > label {
+    text-align: center;
+}
+.valor,
+.prima,
+.plazo,
+.interes {
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+    transition: transform .2s;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.216);
+}
+.valor > div,
+.prima > div,
+.plazo > div,
+.interes > div {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 8px;
+    text-align: center;
+}
+.outputs {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+.results > div {
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.216);
+}
+.results > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform .2s;
+}
+
+
+.inputs > div:hover {
+    transform: scale(1.05);
+    color: rgb(0, 37, 107);
+}
+.results > div:hover {
+    transform: scale(1.05);
+    color: rgb(0, 37, 107);
+}
