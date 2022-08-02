@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Calculator from "./Calculator";
-import TablaAmortizacion from "./Tabla";
+import TablaAmortizacion from "./tabla";
 import Inputs from "./Inputs";
 import "../styles/Calculator.scss";
 
